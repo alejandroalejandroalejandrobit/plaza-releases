@@ -16,3 +16,4 @@ description: |
   Built on open protocols: Lightning, Nostr, Blossom.
 tags: [bitcoin, lightning, pos, nostr, merchant]
 license: Proprietary
+icon: media/icon.png
