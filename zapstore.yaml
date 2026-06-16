@@ -9,7 +9,7 @@ repository: https://github.com/alejandroalejandroalejandrobit/plaza-releases
 
 # Plaza's publisher Nostr identity. MUST match the key in SIGN_WITH.
 # Replace with your chosen npub (personal, or a dedicated Plaza Technologies key).
-pubkey: npub1REPLACE_WITH_YOUR_PUBLISHER_NPUB
+pubkey: npub1xa99wvyzlatc7nr0tpqqwaa4ayr003r6u5h9hu60jxg94cvmkktqjuw24a
 
 name: Plaza
 summary: Sovereign Bitcoin Lightning point-of-sale — non-custodial, zero fees.
