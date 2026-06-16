@@ -1,4 +1,5 @@
 repository: https://github.com/alejandroalejandroalejandrobit/plaza-releases
+pubkey: npub1xa99wvyzlatc7nr0tpqqwaa4ayr003r6u5h9hu60jxg94cvmkktqjuw24a
 name: Plaza
 summary: Sovereign Bitcoin Lightning point-of-sale — non-custodial, zero fees.
 description: |
