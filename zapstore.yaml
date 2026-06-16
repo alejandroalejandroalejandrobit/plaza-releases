@@ -1,16 +1,4 @@
-# Plaza — Zapstore publish manifest.
-# Committed here (the public release channel) so Zapstore can verify the
-# publisher pubkey and source the signed APK from this repo's GitHub releases.
-#
-# Publish with:  SIGN_WITH=nsec1...  zsp publish zapstore.yaml
-# (or run `zsp publish --wizard` the first time to validate interactively)
-
 repository: https://github.com/alejandroalejandroalejandrobit/plaza-releases
-
-# Plaza's publisher Nostr identity. MUST match the key in SIGN_WITH.
-# Replace with your chosen npub (personal, or a dedicated Plaza Technologies key).
-pubkey: npub1xa99wvyzlatc7nr0tpqqwaa4ayr003r6u5h9hu60jxg94cvmkktqjuw24a
-
 name: Plaza
 summary: Sovereign Bitcoin Lightning point-of-sale — non-custodial, zero fees.
 description: |
@@ -18,20 +6,12 @@ description: |
   payments from any wallet, keep 100% of every sale, and let the sats land
   straight in the wallet you already control. No middleman. No custodian. No fees.
 
-  - Truly non-custodial: connect your own wallet/node with Nostr Wallet Connect
-    (NWC). Plaza never holds your money.
+  - Truly non-custodial: connect your own wallet or node with Nostr Wallet Connect (NWC).
   - Zero fees, forever. Just the tiny Bitcoin network fee.
   - Accept Lightning by QR or NFC tap-to-pay; works with every Lightning wallet.
   - Catalog, modifiers, tips, inventory, receipts, reports, CSV/PDF export.
   - Get discovered on the Nostr-powered Plaza merchant map.
 
   Built on open protocols: Lightning, Nostr, Blossom.
-
-homepage: https://plazabtc.com
-tags:
-  - bitcoin
-  - lightning
-  - pos
-  - nostr
-  - merchant
-# icon: set once the app icon is finalized (Zapstore can also pull it from the APK)
+tags: [bitcoin, lightning, pos, nostr, merchant]
+license: Proprietary
